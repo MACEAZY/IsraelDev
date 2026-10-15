@@ -1,576 +1,870 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vars.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f9f8f5" />
+    <meta
+      name="description"
+      content="Waterways is an independent creative studio crafting thoughtful brands, memorable websites, and meaningful digital experiences."
+    />
+    <title>Waterways — Thoughtful design. Lasting impact.</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="./assets/manrope.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
     <link rel="stylesheet" href="./style.css" />
-
-    <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        appearance: none;
-        background: none;
-
-        -webkit-font-smoothing: antialiased;
-      }
-    </style>
-    <title>Document</title>
+    <script src="./app.js" defer></script>
   </head>
   <body>
-    <div class="i-phone-13-mini-2">
-      <div class="frame-775">
-        <div class="vuesax-outline-menu">
-          <svg
-            class="vuesax-outline-menu2"
-            width="24"
-            height="24"
+    <a href="#main" class="skip-link">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Waterways home"
+        ><svg class="brand-symbol" viewBox="0 0 48 42" aria-hidden="true">
+          <path d="M3 8 12 34 23 8 34 34 45 8" />
+          <path d="M3 21 12 38 23 21 34 38 45 21" /></svg
+        ><span>waterways<span class="brand-dot">®</span></span></a
+      >
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work" class="nav-link">Our work</a
+        ><a href="#about" class="nav-link">The studio</a
+        ><a href="#services" class="nav-link">What we do</a>
+      </nav>
+      <a class="header-cta" href="#contact"
+        >Let’s talk
+        <span aria-hidden="true"
+          ><svg
+            class="icon-arrow"
             viewBox="0 0 24 24"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
           >
-            <path
-              d="M21 7.75H3C2.59 7.75 2.25 7.41 2.25 7C2.25 6.59 2.59 6.25 3 6.25H21C21.41 6.25 21.75 6.59 21.75 7C21.75 7.41 21.41 7.75 21 7.75Z"
-              fill="#292D32"
-            />
-            <path
-              d="M21 12.75H3C2.59 12.75 2.25 12.41 2.25 12C2.25 11.59 2.59 11.25 3 11.25H21C21.41 11.25 21.75 11.59 21.75 12C21.75 12.41 21.41 12.75 21 12.75Z"
-              fill="#292D32"
-            />
-            <path
-              d="M21 17.75H3C2.59 17.75 2.25 17.41 2.25 17C2.25 16.59 2.59 16.25 3 16.25H21C21.41 16.25 21.75 16.59 21.75 17C21.75 17.41 21.41 17.75 21 17.75Z"
-              fill="#292D32"
-            />
-          </svg>
+            <path d="M5 19 19 5M5 5h14v14" /></svg></span
+      ></a>
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+    <nav
+      id="mobile-nav"
+      class="mobile-nav"
+      aria-label="Mobile navigation"
+      hidden
+    >
+      <a href="#work">Our work <span>01</span></a
+      ><a href="#about">The studio <span>02</span></a
+      ><a href="#services">What we do <span>03</span></a
+      ><a href="#contact"
+        >Let’s talk
+        <span
+          ><svg
+            class="icon-arrow"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path d="M5 19 19 5M5 5h14v14" /></svg></span
+      ></a>
+    </nav>
+    <main id="main">
+      <section id="home" class="hero section-shell">
+        <div class="hero-copy">
+          <div class="eyebrow hero-intro">
+            <span class="status-dot"></span> INDEPENDENT MINDS. SHARED AMBITION.
+          </div>
+          <h1>
+            Thoughtful<br />design.<br /><span class="hero-purple"
+              >Lasting impact<svg
+                viewBox="0 0 560 26"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <path d="M3 20C160 3 348 0 554 9" /></svg></span
+            ><span class="orange-period">.</span>
+          </h1>
+          <p class="hero-description">
+            We turn bold ideas into brands and digital experiences that feel
+            different. And make a difference.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work"
+              >Explore our work
+              <span class="button-arrow" aria-hidden="true"
+                ><svg
+                  class="icon-arrow"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path d="M5 19 19 5M5 5h14v14" /></svg></span></a
+            ><span class="hero-note"
+              >A little strategy.<br />A lot of possibility.</span
+            >
+          </div>
         </div>
-      </div>
-      <img
-        class="waterways-logo-rect-purple-2"
-        src="waterways-logo-rect-purple-20.png"
-      />
-      <div class="frame-773">
-        <div class="portfolio">Portfolio</div>
         <div
-          class="lorem-occaecat-proident-excepteur-commodo-et-nulla-eiusmod-elit-esse-aute-officia-dolor-elit-aute"
+          class="hero-visual"
+          aria-label="A collection of Waterways branding and digital design concepts"
         >
-          Step into our professional realm as we unfold our projects and skills,
-          each project tells a unique story; together, they define our
-          narrative.
-        </div>
-      </div>
-      <div class="frame-336">
-        <div class="container-84">
-          <div class="button-40">
-            <div class="frame-330">
-              <div class="view-project">View project</div>
-              <svg
-                class="arrow-left"
-                width="21"
-                height="21"
-                viewBox="0 0 21 21"
+          <div class="visual-grid" aria-hidden="true"></div>
+          <span class="visual-coordinate" aria-hidden="true"
+            >CREATIVITY, IN FULL FLOW.</span
+          >
+          <button
+            class="hero-art art-ocean"
+            data-project="ocean"
+            aria-label="Explore Oceanic Feeling website concept"
+          >
+            <img
+              src="./assets/ocean.svg"
+              alt="Oceanic Feeling: an editorial blue website concept"
+              fetchpriority="high"
+            />
+          </button>
+          <button
+            class="hero-art art-paris"
+            data-project="paris"
+            aria-label="Explore Paris Secrets brand concept"
+          >
+            <img
+              src="./assets/paris.svg"
+              alt="Paris Secrets: sculptural perfume packaging in lavender"
+              fetchpriority="high"
+            />
+          </button>
+          <div class="creative-stamp" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <path
+                  id="stamp-circle"
+                  d="M60,60 m-43,0 a43,43 0 1,1 86,0 a43,43 0 1,1 -86,0"
+                />
+              </defs>
+              <text>
+                <textPath href="#stamp-circle" textLength="268">
+                  GOOD PEOPLE. GREAT DESIGN.
+                </textPath>
+              </text></svg
+            ><span
+              ><svg
+                class="icon-star"
+                viewBox="0 0 80 80"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
-                <path
-                  d="M3.21592 10.3842L18.0186 10.3842"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13.0843 15.3184L18.0186 10.3842L13.0843 5.44995"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
+                <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg
+            ></span>
           </div>
-          <div class="frame-312">
-            <div class="frame-311">
-              <div class="apple-rebranding">Pefume Rebranding</div>
-              <div class="paris-secrets">Paris secrets</div>
-            </div>
-            <div
-              class="sint-occaecat-deserunt-aliquip-do-occaecat-ut-quis-cupidatat-magna-fugiat-quis-sit-duis-est-in-volup"
-            >
-              Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat
-              magna fugiat quis sit duis est in volup
-            </div>
+          <div class="visual-label">
+            <span class="status-dot"></span> A SMALL STUDIO. A BIG IMAGINATION.
           </div>
-          <div class="frame-328">
-            <img class="image-57" src="image-570.png" />
-            <img class="image-58" src="image-580.png" />
-            <img class="image-59" src="image-590.png" />
-          </div>
+          <svg class="hero-spark" viewBox="0 0 80 80" aria-hidden="true">
+            <path d="M40 0v80M0 40h80M12 12l56 56M12 68l56-56" />
+          </svg>
         </div>
-        <div class="container-85">
-          <div class="button-40">
-            <div class="frame-330">
-              <div class="view-project">View project</div>
-              <svg
-                class="arrow-left2"
-                width="21"
-                height="21"
-                viewBox="0 0 21 21"
+        <div class="hero-bottom">
+          <a href="#work" class="scroll-cue"
+            ><span>↓</span> SCROLL TO DISCOVER</a
+          >
+          <p>
+            BRAND STRATEGY
+            <i
+              ><svg
+                class="icon-star"
+                viewBox="0 0 80 80"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
-                <path
-                  d="M3.21592 10.5157L18.0186 10.5157"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13.0843 15.4499L18.0186 10.5157L13.0843 5.58148"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="frame-312">
-            <div class="frame-311">
-              <div class="apple-rebranding">Oce Web design</div>
-              <div class="paris-secrets">Oceanic Feeling</div>
-            </div>
-            <div
-              class="sint-occaecat-deserunt-aliquip-do-occaecat-ut-quis-cupidatat-magna-fugiat-quis-sit-duis-est-in-volup"
-            >
-              Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat
-              magna fugiat quis sit duis est in volup
-            </div>
-          </div>
-          <div class="frame-331">
-            <img class="image-60" src="image-600.png" />
-            <img class="image-61" src="image-610.png" />
-          </div>
-        </div>
-        <div class="container-86">
-          <div class="button-40">
-            <div class="frame-330">
-              <div class="view-project">View project</div>
-              <svg
-                class="arrow-left3"
-                width="21"
-                height="21"
-                viewBox="0 0 21 21"
+                <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg
+            ></i>
+            DESIGN
+            <i
+              ><svg
+                class="icon-star"
+                viewBox="0 0 80 80"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
-                <path
-                  d="M3.21592 10.6472L18.0186 10.6472"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13.0843 15.5814L18.0186 10.6472L13.0843 5.71301"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="frame-312">
-            <div class="frame-311">
-              <div class="apple-rebranding">Swiss Brand Design</div>
-              <div class="paris-secrets">Pure summer garden</div>
-            </div>
-            <div
-              class="sint-occaecat-deserunt-aliquip-do-occaecat-ut-quis-cupidatat-magna-fugiat-quis-sit-duis-est-in-volup"
-            >
-              Sint SSint occaecat deserunt aliquip do occaecat ut quis.
-              Cupidatat magna fugiat quis sit duis est in volupgna fugiat
-            </div>
-          </div>
-          <div class="frame-328">
-            <img class="image-63" src="image-630.png" />
-            <img class="image-62" src="image-620.png" />
-            <img class="image-64" src="image-640.png" />
-          </div>
+                <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg
+            ></i>
+            DIGITAL EXPERIENCES
+          </p>
         </div>
-        <div class="container-87">
-          <div class="button-40">
-            <div class="frame-330">
-              <div class="view-project">View project</div>
-              <svg
-                class="arrow-left4"
-                width="21"
-                height="20"
-                viewBox="0 0 21 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.21592 10.0946L18.0186 10.0946"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13.0843 15.0288L18.0186 10.0946L13.0843 5.1604"
-                  stroke="#FE7200"
-                  stroke-width="0.986842"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="frame-312">
-            <div class="frame-311">
-              <div class="apple-rebranding">Product Design</div>
-              <div class="paris-secrets">Fairy tales</div>
-            </div>
-            <div
-              class="sint-occaecat-deserunt-aliquip-do-occaecat-ut-quis-cupidatat-magna-fugiat-quis-sit-duis-est-in-volup"
-            >
-              occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna
-              fugiat quis sit duis est in volup
-            </div>
-          </div>
-          <div class="frame-328">
-            <div class="frame-332">
-              <img class="image-66" src="image-660.png" />
-              <img class="image-65" src="image-650.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-872">
-        <div class="frame-175">
-          <img
-            class="waterways-logo-rect-white-1"
-            src="waterways-logo-rect-white-10.png"
-          />
-        </div>
-        <div class="frame-321">
-          <div class="frame-319">
-            <div class="subscribe-to-our-newsletter">
-              Subscribe to our newsletter
-            </div>
-            <div class="for-product-announcements-and-exclusive-insights">
-              For product announcements and exclusive insights
-            </div>
-          </div>
-          <div class="frame-320">
-            <div class="textbox-19">
-              <div class="input-your-email">Input your email</div>
-              <svg
-                class="mail"
-                width="11"
-                height="10"
-                viewBox="0 0 11 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.27227 7.86261L2.74727 7.86261C2.36604 7.86261 2.05664 7.55321 2.05664 7.17199L2.05664 2.56782C2.05664 2.1866 2.36604 1.8772 2.74727 1.8772L8.27227 1.8772C8.65349 1.8772 8.96289 2.1866 8.96289 2.56782V7.17199C8.96289 7.55321 8.65349 7.86261 8.27227 7.86261Z"
-                  stroke="#242529"
-                  stroke-width="0.460417"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M2.97852 3.25842L5.51081 5.3303L8.0431 3.25842"
-                  stroke="#242529"
-                  stroke-width="0.460417"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-            <div class="button-48">
-              <div class="subscribe">Subscribe</div>
-            </div>
-          </div>
-        </div>
-        <div class="frame-333">
-          <div class="frame-323">
-            <div class="product">Services</div>
-            <div class="frame-322">
-              <div class="features">Web Design</div>
-              <div class="pricing">Brand Design</div>
-              <div class="pricing">Printing</div>
-            </div>
-          </div>
-          <div class="frame-325">
-            <div class="resources">Resources</div>
-            <div class="frame-324">
-              <div class="blog">Blog</div>
-              <div class="user-guides">Portfolio</div>
-            </div>
-          </div>
-          <div class="frame-327">
-            <div class="company">Company</div>
-            <div class="frame-326">
-              <div class="about">About Us</div>
-              <div class="join-us">Contact Us</div>
-              <div class="join-us">FAQ</div>
-            </div>
-          </div>
-        </div>
-        <div class="textbox-18">
-          <div class="frame-335">
-            <div class="english">English</div>
-            <svg
-              class="chevron-down-large"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
+      </section>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Ideas with intention</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
-              <path
-                d="M3.07273 4.66675L2 5.73947L8 11.7395L14 5.73947L12.9273 4.66675L8 9.59399L3.07273 4.66675Z"
-                fill="#242529"
-              />
-            </svg>
-          </div>
-        </div>
-        <div class="_2023-waterways-digital-world-all-rights">
-          ©2023. Waterways Digital World. All Rights
-        </div>
-        <div class="frame-318">
-          <svg
-            class="logo-twitter-2"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18.0002 5.05C17.4002 5.3 16.8002 5.5 16.1002 5.55C16.8002 5.15 17.3002 4.5 17.5502 3.75C16.9002 4.15 16.2002 4.4 15.4502 4.55C14.8502 3.9 14.0002 3.5 13.1002 3.5C11.3002 3.5 9.8002 4.95 9.8002 6.8C9.8002 7.05 9.8502 7.3 9.9002 7.55C7.1502 7.4 4.7502 6.1 3.1002 4.1C2.8002 4.6 2.6502 5.15 2.6502 5.75C2.6502 6.9 3.2502 7.9 4.1002 8.5C3.5502 8.5 3.0502 8.35 2.6002 8.1V8.15C2.6002 9.75 3.7502 11.05 5.2502 11.35C4.9502 11.4 4.7002 11.45 4.4002 11.45C4.2002 11.45 4.0002 11.45 3.8002 11.4C4.2002 12.7 5.4502 13.65 6.8502 13.7C5.7502 14.6 4.3002 15.1 2.7502 15.1C2.5002 15.1 2.2002 15.1 1.9502 15.05C3.4502 15.95 5.2002 16.5 7.0502 16.5C13.1002 16.5 16.4002 11.5 16.4002 7.15C16.4002 7 16.4002 6.85 16.4002 6.75C17.0002 6.25 17.5502 5.7 18.0002 5.05Z"
-              fill="white"
-            />
-          </svg>
-
-          <svg
-            class="logo-facebook-2"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18.001 10.0002C18.0007 8.47142 17.5625 6.97472 16.738 5.68728C15.9136 4.39984 14.7375 3.37559 13.3491 2.73577C11.9606 2.09596 10.4179 1.86738 8.90354 2.0771C7.38921 2.28682 5.96667 2.92605 4.80435 3.91912C3.64202 4.91218 2.78857 6.2175 2.34505 7.68054C1.90152 9.14357 1.88649 10.7031 2.30172 12.1744C2.71696 13.6457 3.54509 14.9672 4.68805 15.9825C5.83102 16.9978 7.24097 17.6643 8.75098 17.9032V12.3127H6.71998L6.71998 10.0002L8.75098 10.0002V8.23771C8.75098 6.23271 9.94548 5.12521 11.7725 5.12521C12.3725 5.13353 12.9711 5.18567 13.5635 5.28121L13.5635 7.25021H12.5545C12.3825 7.22737 12.2077 7.24352 12.0428 7.29746C11.878 7.3514 11.7274 7.44174 11.6022 7.56179C11.477 7.68184 11.3804 7.82853 11.3196 7.99097C11.2588 8.15342 11.2354 8.32746 11.251 8.50021V10.0002H13.47L13.115 12.3127L11.251 12.3127L11.251 17.9032C13.1329 17.6055 14.8467 16.6459 16.0841 15.1971C17.3216 13.7484 18.0013 11.9055 18.001 10.0002Z"
-              fill="white"
-            />
-          </svg>
-
-          <svg
-            class="logo-linkedin-2"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M16.5 2.5L3.5 2.5C3.23478 2.5 2.98043 2.60536 2.79289 2.79289C2.60536 2.98043 2.5 3.23478 2.5 3.5L2.5 16.5C2.5 16.7652 2.60536 17.0196 2.79289 17.2071C2.98043 17.3946 3.23478 17.5 3.5 17.5L16.5 17.5C16.7652 17.5 17.0196 17.3946 17.2071 17.2071C17.3946 17.0196 17.5 16.7652 17.5 16.5L17.5 3.5C17.5 3.23478 17.3946 2.98043 17.2071 2.79289C17.0196 2.60536 16.7652 2.5 16.5 2.5ZM6.9435 15.297L4.687 15.297L4.687 8.125H6.9435L6.9435 15.297ZM5.815 7.1405C5.55558 7.13971 5.30222 7.06206 5.08691 6.91736C4.87159 6.77266 4.70399 6.5674 4.60526 6.32751C4.50654 6.08761 4.48111 5.82384 4.53221 5.5695C4.5833 5.31516 4.70862 5.08167 4.89234 4.89852C5.07605 4.71536 5.30992 4.59075 5.56441 4.54043C5.8189 4.49011 6.0826 4.51634 6.32219 4.6158C6.56179 4.71525 6.76654 4.88348 6.91058 5.09923C7.05462 5.31498 7.1315 5.56858 7.1315 5.828C7.13157 6.00072 7.09753 6.17174 7.03134 6.33128C6.96516 6.49081 6.86813 6.6357 6.74581 6.75764C6.6235 6.87958 6.47831 6.97618 6.31858 7.04188C6.15885 7.10758 5.98771 7.14109 5.815 7.1405ZM15.3105 15.297L13.1 15.297L13.1 11.828C13.1 10.9845 13.1 9.953 11.925 9.953C10.75 9.953 10.6085 10.844 10.6085 11.781L10.6085 15.344H8.4L8.4 8.125H10.468V9.1095H10.515C10.7283 8.74075 11.0378 8.43691 11.4104 8.23047C11.783 8.02404 12.2048 7.92277 12.6305 7.9375C14.887 7.9375 15.31 9.4375 15.31 11.3595L15.3105 15.297Z"
-              fill="white"
-            />
-          </svg>
-
-          <svg
-            class="logo-youtube-2"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M17.85 6.8001C17.85 6.8001 17.7 5.7001 17.2 5.2001C16.6 4.5501 15.9 4.5501 15.6 4.5001C13.35 4.3501 10 4.3501 10 4.3501C10 4.3501 6.65 4.3501 4.4 4.5001C4.1 4.5501 3.4 4.5501 2.8 5.2001C2.3 5.7001 2.15 6.8001 2.15 6.8001C2.15 6.8001 2 8.1001 2 9.4001L2 10.6001C2 11.9001 2.15 13.2001 2.15 13.2001C2.15 13.2001 2.3 14.3001 2.8 14.8001C3.4 15.4501 4.2 15.4001 4.55 15.5001C5.85 15.6001 10 15.6501 10 15.6501C10 15.6501 13.35 15.6501 15.6 15.5001C15.9 15.4501 16.6 15.4501 17.2 14.8001C17.7 14.3001 17.85 13.2001 17.85 13.2001C17.85 13.2001 18 11.9001 18 10.6001V9.4001C18 8.1001 17.85 6.8001 17.85 6.8001ZM8.35 12.1001L8.35 7.6001L12.65 9.8501L8.35 12.1001Z"
-              fill="white"
-            />
-          </svg>
-        </div>
-        <svg
-          class="vector-21"
-          width="129"
-          height="3"
-          viewBox="0 0 129 3"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1 1.5H127.5"
-            stroke="#F5E6FE"
-            stroke-width="2"
-            stroke-linecap="round"
-          />
-        </svg>
-      </div>
-      <div class="rolling">
-        <div class="frame-309">
-          <div class="arrow-and-text">
-            <div class="our-portfolio-rounded">
-              <div class="o">O</div>
-              <div class="u">u</div>
-              <div class="r">r</div>
-              <div class="div"> </div>
-              <div class="p">P</div>
-              <div class="o2">o</div>
-              <div class="r2">r</div>
-              <div class="t">t</div>
-              <div class="f">f</div>
-              <div class="o3">o</div>
-              <div class="l">l</div>
-              <div class="i">i</div>
-              <div class="o4">o</div>
-              <div class="div2"> </div>
-              <div class="div3">*</div>
-              <div class="div4"> </div>
-              <div class="o5">O</div>
-              <div class="u2">u</div>
-              <div class="r3">r</div>
-              <div class="div5"> </div>
-              <div class="p2">P</div>
-              <div class="o6">o</div>
-              <div class="r4">r</div>
-              <div class="t2">t</div>
-              <div class="f2">f</div>
-              <div class="o7">o</div>
-              <div class="l2">l</div>
-              <div class="i2">i</div>
-              <div class="o8">o</div>
-              <div class="div6"> </div>
-              <div class="div7">*</div>
-              <div class="div8"> </div>
-              <div class="o9">O</div>
-              <div class="u3">u</div>
-              <div class="r5">r</div>
-              <div class="div9"> </div>
-              <div class="p3">P</div>
-              <div class="o10">o</div>
-              <div class="r6">r</div>
-              <div class="t3">t</div>
-              <div class="f3">f</div>
-              <div class="o11">o</div>
-              <div class="l3">l</div>
-              <div class="i3">i</div>
-              <div class="o12">o</div>
-            </div>
-            <svg
-              class="vector-20"
-              width="9"
-              height="30"
-              viewBox="0 0 9 30"
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg></i
+          ><span>Design with feeling</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
-              <path
-                d="M4.75381 1.50037C4.75381 1.11425 4.4408 0.801246 4.05469 0.801246C3.66857 0.801246 3.35557 1.11425 3.35557 1.50037L4.75381 1.50037ZM4.05469 29.2322L8.09106 22.2409L0.0183138 22.2409L4.05469 29.2322ZM3.35557 1.50037L3.35557 22.9401L4.75381 22.9401L4.75381 1.50037L3.35557 1.50037Z"
-                fill="#242529"
-              />
-            </svg>
-          </div>
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg></i
+          ><span>Made to matter</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg></i
+          ><span>Ideas with intention</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg></i
+          ><span>Design with feeling</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg></i
+          ><span>Made to matter</span
+          ><i
+            ><svg
+              class="icon-star"
+              viewBox="0 0 80 80"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52" /></svg
+          ></i>
         </div>
       </div>
-      <div class="frame-1">
-        <div class="_1-00-pm">1:00pm</div>
-        <svg
-          class="group-31"
-          width="19"
-          height="10"
-          viewBox="0 0 19 10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+      <section id="work" class="work-section section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">
+              <span class="section-index">01 /</span> SELECTED WORK
+            </p>
+            <h2>
+              A few things<br />we’ve
+              <span class="serif-word">put into the world.</span>
+            </h2>
+          </div>
+          <p class="section-description">
+            Different challenges. Different possibilities.<br />One belief:
+            great design moves things forward.
+          </p>
+        </div>
+        <div class="work-toolbar reveal">
+          <div class="filter-group" role="group" aria-label="Filter projects">
+            <button class="filter active" data-filter="all" aria-pressed="true">
+              All work <span>04</span></button
+            ><button class="filter" data-filter="branding" aria-pressed="false">
+              Branding <span>02</span></button
+            ><button class="filter" data-filter="web" aria-pressed="false">
+              Web design <span>01</span></button
+            ><button class="filter" data-filter="product" aria-pressed="false">
+              Product design <span>01</span>
+            </button>
+          </div>
+          <span class="work-note">A LITTLE OF WHAT WE DO ↙</span>
+        </div>
+        <p id="filter-status" class="sr-only" role="status" aria-live="polite">
+          Showing all 4 projects
+        </p>
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="branding">
+            <button
+              class="project-image paris-image"
+              data-project="paris"
+              aria-label="View Paris Secrets case study"
+            >
+              <img
+                src="./assets/paris.svg"
+                alt="Paris Secrets perfume identity, featuring a lavender bottle and sculptural packaging"
+                loading="lazy"
+              /><span class="project-number">01 / BRAND IDENTITY</span
+              ><span class="view-project"
+                >View project
+                <span
+                  ><svg
+                    class="icon-arrow"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ></span>
+            </button>
+            <div class="project-meta">
+              <div>
+                <h3>
+                  <button data-project="paris">
+                    Paris Secrets
+                    <span
+                      ><svg
+                        class="icon-arrow"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 19 19 5M5 5h14v14" /></svg
+                    ></span>
+                  </button>
+                </h3>
+                <p>A little mystery. An unforgettable impression.</p>
+              </div>
+              <span class="project-tag">Branding & packaging</span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <button
+              class="project-image ocean-image"
+              data-project="ocean"
+              aria-label="View Oceanic Feeling case study"
+            >
+              <img
+                src="./assets/ocean.svg"
+                alt="Oceanic Feeling website with a blue seascape and bold editorial typography"
+                loading="lazy"
+              /><span class="project-number">02 / DIGITAL EXPERIENCE</span
+              ><span class="view-project"
+                >View project
+                <span
+                  ><svg
+                    class="icon-arrow"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ></span>
+            </button>
+            <div class="project-meta">
+              <div>
+                <h3>
+                  <button data-project="ocean">
+                    Oceanic Feeling
+                    <span
+                      ><svg
+                        class="icon-arrow"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 19 19 5M5 5h14v14" /></svg
+                    ></span>
+                  </button>
+                </h3>
+                <p>A digital escape, inspired by the sea.</p>
+              </div>
+              <span class="project-tag">Web design</span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="branding">
+            <button
+              class="project-image garden-image"
+              data-project="garden"
+              aria-label="View Pure Summer Garden case study"
+            >
+              <img
+                src="./assets/garden.svg"
+                alt="Pure Summer Garden botanical skincare identity with green packaging and illustrated leaves"
+                loading="lazy"
+              /><span class="project-number">03 / BRAND WORLD</span
+              ><span class="view-project"
+                >View project
+                <span
+                  ><svg
+                    class="icon-arrow"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ></span>
+            </button>
+            <div class="project-meta">
+              <div>
+                <h3>
+                  <button data-project="garden">
+                    Pure Summer Garden
+                    <span
+                      ><svg
+                        class="icon-arrow"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 19 19 5M5 5h14v14" /></svg
+                    ></span>
+                  </button>
+                </h3>
+                <p>Good by nature. Beautiful by design.</p>
+              </div>
+              <span class="project-tag">Brand strategy & identity</span>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="product">
+            <button
+              class="project-image fairy-image"
+              data-project="fairy"
+              aria-label="View Fairy Tales case study"
+            >
+              <img
+                src="./assets/fairy.svg"
+                alt="Fairy Tales reading app concept with warm orange screens and playful book illustrations"
+                loading="lazy"
+              /><span class="project-number">04 / PRODUCT DESIGN</span
+              ><span class="view-project"
+                >View project
+                <span
+                  ><svg
+                    class="icon-arrow"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ></span>
+            </button>
+            <div class="project-meta">
+              <div>
+                <h3>
+                  <button data-project="fairy">
+                    Fairy Tales
+                    <span
+                      ><svg
+                        class="icon-arrow"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 19 19 5M5 5h14v14" /></svg
+                    ></span>
+                  </button>
+                </h3>
+                <p>Little stories. A world of possibilities.</p>
+              </div>
+              <span class="project-tag">UI/UX & product design</span>
+            </div>
+          </article>
+        </div>
+        <div class="work-end reveal">
+          <span>EVERY GOOD PROJECT STARTS WITH A CONVERSATION.</span
+          ><a class="text-link" href="#contact"
+            >Have something in mind?
+            <span
+              ><svg
+                class="icon-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M5 19 19 5M5 5h14v14" /></svg></span
+          ></a>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="section-shell about-inner">
+          <div class="about-art reveal" aria-hidden="true">
+            <div class="about-orbit"></div>
+            <div class="about-w">
+              w<span
+                ><svg
+                  class="icon-arrow"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path d="M5 19 19 5M5 5h14v14" /></svg
+              ></span>
+            </div>
+            <div class="about-art-note">
+              INDEPENDENT IN SPIRIT.<br />CONNECTED BY DESIGN.
+            </div>
+            <span class="about-star"
+              ><svg
+                class="icon-star"
+                viewBox="0 0 80 80"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M40 4v72M4 40h72M14 14l52 52M14 66l52-52"
+                /></svg></span
+            ><span class="about-art-corner">A FRESH PERSPECTIVE, ALWAYS.</span>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">
+              <span class="section-index">02 /</span> THE PEOPLE BEHIND THE
+              PIXELS
+            </p>
+            <h2>
+              Small studio.<br /><span class="serif-word"
+                >Wide-open thinking.</span
+              >
+            </h2>
+            <p>
+              We’re Waterways — an independent creative studio with a curious
+              mind and a hands-on approach. We bring strategy, identity, and
+              digital together to help ambitious ideas find their flow.
+            </p>
+            <p>
+              We ask better questions, explore unexpected directions, and sweat
+              the little details. Because the best work doesn’t just look good.
+              It means something.
+            </p>
+            <a class="text-link" href="#services"
+              >Meet your creative partners
+              <span
+                ><svg
+                  class="icon-arrow"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path d="M5 19 19 5M5 5h14v14" /></svg></span
+            ></a>
+            <div class="studio-values">
+              <span>Curious by nature.</span
+              ><span>Collaborative by choice.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services-section section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">
+              <span class="section-index">03 /</span> WHAT WE BRING
+            </p>
+            <h2>
+              From the first spark<br />to the
+              <span class="serif-word">final detail.</span>
+            </h2>
+          </div>
+          <p class="section-description">
+            Thoughtful at every step.<br />Connected from start to finish.
+          </p>
+        </div>
+        <div class="services-list">
+          <details class="service reveal" open>
+            <summary>
+              <span class="service-index">01</span>
+              <h3>Brand strategy & identity</h3>
+              <span class="service-plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="service-content">
+              <p>
+                Find your voice. Define your difference. We build distinctive
+                brand worlds grounded in who you are and where you’re going.
+              </p>
+              <div class="service-tags">
+                <span>Positioning</span><span>Visual identity</span
+                ><span>Art direction</span><span>Brand guidelines</span>
+              </div>
+            </div>
+          </details>
+          <details class="service reveal">
+            <summary>
+              <span class="service-index">02</span>
+              <h3>Web & digital experiences</h3>
+              <span class="service-plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="service-content">
+              <p>
+                Digital spaces that feel as good as they work. We bring clarity,
+                character, and considered interactions to every screen.
+              </p>
+              <div class="service-tags">
+                <span>Web design</span><span>Responsive development</span
+                ><span>Interaction design</span><span>Creative direction</span>
+              </div>
+            </div>
+          </details>
+          <details class="service reveal">
+            <summary>
+              <span class="service-index">03</span>
+              <h3>Product & packaging</h3>
+              <span class="service-plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="service-content">
+              <p>
+                Make the everyday extraordinary. From a first tap to an unboxing
+                moment, we create products people love spending time with.
+              </p>
+              <div class="service-tags">
+                <span>UI/UX design</span><span>Prototyping</span
+                ><span>Packaging</span><span>Print design</span>
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="section-shell">
+          <div class="contact-top">
+            <p class="eyebrow">
+              <span class="status-dot"></span> OPEN TO GOOD CONVERSATIONS
+            </p>
+            <span>YOUR NEXT CHAPTER STARTS HERE.</span>
+          </div>
+          <div class="contact-main reveal">
+            <h2>
+              Got a good idea?<br />Let’s
+              <span class="serif-word">make it happen.</span>
+            </h2>
+            <button
+              class="contact-circle"
+              data-contact
+              aria-label="Start a project"
+            >
+              <svg
+                class="icon-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M5 19 19 5M5 5h14v14" />
+              </svg>
+            </button>
+          </div>
+          <div class="contact-bottom">
+            <p>
+              A new brand, a fresh perspective, or something<br />that doesn’t
+              have a name yet. We’re all ears.
+            </p>
+            <button class="text-link" data-contact>
+              Start a conversation
+              <span
+                ><svg
+                  class="icon-arrow"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path d="M5 19 19 5M5 5h14v14" /></svg
+              ></span>
+            </button>
+          </div>
+          <a class="contact-email" href="mailto:ajalaisrael2015@gmail.com"
+            >ajalaisrael2015@gmail.com
+            <span
+              ><svg
+                class="icon-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M5 19 19 5M5 5h14v14" /></svg></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer section-shell">
+      <div class="footer-top">
+        <a class="brand" href="#home" aria-label="Waterways home"
+          ><svg class="brand-symbol" viewBox="0 0 48 42" aria-hidden="true">
+            <path d="M3 8 12 34 23 8 34 34 45 8" />
+            <path d="M3 21 12 38 23 21 34 38 45 21" /></svg
+          ><span>waterways<span class="brand-dot">®</span></span></a
         >
-          <path
-            d="M17.6962 0H0.577148V9.13018H17.6962V5.70636H18.8375V3.42382H17.6962V0ZM16.555 3.42382V5.70636V7.98891H1.71842V1.14127H16.555V3.42382Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M11.9896 2.28253H9.70703V6.84762H11.9896V2.28253Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M8.56575 2.28253H6.2832V6.84762H8.56575V2.28253Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M5.14192 2.28253H2.85938V6.84762H5.14192V2.28253Z"
-            fill="#3A3A3A"
-          />
-        </svg>
-
-        <svg
-          class="group-68"
-          width="12"
-          height="10"
-          viewBox="0 0 12 10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8.0823 7.20915C7.51689 6.81401 6.84374 6.6021 6.15394 6.6021C5.46414 6.6021 4.791 6.81401 4.22559 7.20915L4.85919 8.10721C5.23651 7.84388 5.68555 7.70268 6.14568 7.70268C6.6058 7.70268 7.05485 7.84388 7.43217 8.10721L8.0823 7.20915Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M9.36566 5.42401C8.43095 4.75591 7.31077 4.39673 6.16184 4.39673C5.0129 4.39673 3.89272 4.75591 2.95801 5.42401L3.60263 6.31657C4.35304 5.79225 5.2464 5.51107 6.16184 5.51107C7.07728 5.51107 7.97063 5.79225 8.72104 6.31657L9.36566 5.42401Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M10.6389 3.63338C9.33288 2.69482 7.76516 2.18994 6.15686 2.18994C4.54856 2.18994 2.98084 2.69482 1.6748 3.63338L2.3029 4.52594C3.42125 3.72275 4.76344 3.29072 6.14033 3.29072C7.51722 3.29072 8.85941 3.72275 9.97776 4.52594L10.6389 3.63338Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M0.396484 1.8373L1.0356 2.74088C2.53071 1.67291 4.32215 1.0988 6.15952 1.0988C7.99688 1.0988 9.78833 1.67291 11.2834 2.74088L11.9281 1.84832C10.2458 0.646235 8.22989 0 6.16227 0C4.09466 0 2.07875 0.646235 0.396484 1.84832V1.8373Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M6.71032 8.8014H5.6084V9.90332H6.71032V8.8014Z"
-            fill="#3A3A3A"
-          />
-        </svg>
-
-        <svg
-          class="group-69"
-          width="12"
-          height="12"
-          viewBox="0 0 12 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.93845 7.34614H0V11.7538H2.93845V7.34614Z"
-            fill="#3A3A3A"
-          />
-          <path
-            d="M7.34568 4.40765H4.40723V11.7538H7.34568V4.40765Z"
-            fill="#3A3A3A"
-          />
-          <path d="M11.7539 0H8.81543V11.7538H11.7539V0Z" fill="#3A3A3A" />
-        </svg>
+        <p>Making waves.<br />Creating what’s next.</p>
+        <nav aria-label="Footer navigation">
+          <a href="#work"
+            >Our work
+            <svg
+              class="icon-arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M5 19 19 5M5 5h14v14" /></svg></a
+          ><a href="#about"
+            >The studio
+            <svg
+              class="icon-arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M5 19 19 5M5 5h14v14" /></svg></a
+          ><a href="mailto:ajalaisrael2015@gmail.com"
+            >Get in touch
+            <svg
+              class="icon-arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M5 19 19 5M5 5h14v14" /></svg
+          ></a>
+        </nav>
       </div>
-    </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Waterways Digital World.</span
+        ><button id="motion-toggle" class="motion-toggle" aria-pressed="false">
+          Pause motion</button
+        ><a href="#home">Back to top <span>↑</span></a>
+      </div>
+    </footer>
+    <dialog
+      id="project-dialog"
+      class="project-dialog"
+      aria-labelledby="project-title"
+    >
+      <button class="dialog-close" aria-label="Close project">✕</button>
+      <div class="project-dialog-image">
+        <img id="project-detail-image" src="./assets/paris.svg" alt="" />
+      </div>
+      <div class="project-dialog-body">
+        <p id="project-detail-category" class="eyebrow"></p>
+        <h2 id="project-title"></h2>
+        <p id="project-detail-intro" class="project-detail-intro"></p>
+        <div class="case-grid">
+          <div>
+            <h3>The idea</h3>
+            <p id="project-detail-idea"></p>
+          </div>
+          <div>
+            <h3>The approach</h3>
+            <p id="project-detail-approach"></p>
+          </div>
+        </div>
+        <div id="project-detail-tags" class="service-tags"></div>
+        <div class="case-footer">
+          <span class="concept-note"
+            >Independent concept / Design exploration</span
+          ><button id="next-project" class="text-link">
+            Next project
+            <span
+              ><svg
+                class="icon-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M5 19 19 5M5 5h14v14" /></svg
+            ></span>
+          </button>
+        </div>
+      </div>
+    </dialog>
+    <dialog
+      id="contact-dialog"
+      class="contact-dialog"
+      aria-labelledby="contact-title"
+    >
+      <button class="dialog-close" aria-label="Close inquiry">✕</button>
+      <p class="eyebrow">LET’S CREATE SOMETHING MEANINGFUL</p>
+      <h2 id="contact-title">
+        Every great thing<br />starts with
+        <span class="serif-word">a hello.</span>
+      </h2>
+      <p>
+        Tell us a little about your idea. We’ll turn the details into an email
+        to start the conversation.
+      </p>
+      <form id="contact-form">
+        <div class="form-row">
+          <label
+            >Your name<input
+              name="name"
+              autocomplete="name"
+              placeholder="Alex Taylor"
+              required
+              maxlength="100" /></label
+          ><label
+            >Email address<input
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="alex@company.com"
+              required
+              maxlength="200"
+          /></label>
+        </div>
+        <label
+          >What are you thinking?<select name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Brand strategy & identity</option>
+            <option>Web & digital experiences</option>
+            <option>Product & packaging</option>
+            <option>A little of everything</option>
+          </select></label
+        ><label
+          >A few words about your project<textarea
+            name="message"
+            rows="4"
+            placeholder="The idea, the ambition, the possibilities…"
+            required
+            minlength="15"
+            maxlength="4000"
+          ></textarea></label
+        ><button class="button button-dark form-submit" type="submit">
+          Let’s start a conversation
+          <span
+            ><svg
+              class="icon-arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path d="M5 19 19 5M5 5h14v14" /></svg
+          ></span>
+        </button>
+        <p class="form-note">
+          Opens your email app with a prepared message to
+          ajalaisrael2015@gmail.com. You review and send it there.
+        </p>
+        <p id="form-status" class="form-status" role="status"></p>
+        <div id="email-fallback" hidden>
+          <button id="copy-inquiry" type="button" class="text-link">
+            Copy inquiry instead
+            <span
+              ><svg
+                class="icon-arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M5 19 19 5M5 5h14v14" /></svg
+            ></span></button
+          ><a href="mailto:ajalaisrael2015@gmail.com"
+            >ajalaisrael2015@gmail.com</a
+          >
+        </div>
+      </form>
+    </dialog>
+    <noscript
+      ><div class="noscript-note">
+        Enable JavaScript for project filters and case studies. You can always
+        reach us at
+        <a href="mailto:ajalaisrael2015@gmail.com">ajalaisrael2015@gmail.com</a
+        >.
+      </div></noscript
+    >
   </body>
 </html>

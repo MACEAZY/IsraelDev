@@ -1,0 +1,240 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="720"
+  viewBox="0 0 960 720"
+>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#f4c4a0" />
+      <stop offset="1" stop-color="#eaa073" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-30%" width="220%" height="180%">
+      <feDropShadow
+        dx="10"
+        dy="16"
+        stdDeviation="16"
+        flood-color="#8e492a"
+        flood-opacity=".24"
+      />
+    </filter>
+    <clipPath id="screen1"><rect width="227" height="462" rx="24" /></clipPath>
+    <clipPath id="screen2"><rect width="227" height="462" rx="24" /></clipPath>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h960v720H0z" />
+  <g fill="none" stroke="#fce2c6" opacity=".35">
+    <circle cx="480" cy="340" r="235" />
+    <circle cx="480" cy="340" r="282" />
+    <circle cx="480" cy="340" r="332" />
+  </g>
+  <g transform="translate(210 129) rotate(-11 120 230)" filter="url(#shadow)">
+    <rect x="-7" y="-7" width="241" height="476" rx="32" fill="#66412f" />
+    <g clip-path="url(#screen1)">
+      <rect width="227" height="462" fill="#fff5e5" />
+      <text
+        x="17"
+        y="26"
+        font-family="Arial,sans-serif"
+        font-size="8"
+        font-weight="bold"
+        fill="#4c3425"
+      >
+        9:41
+      </text>
+      <rect x="87" y="8" width="58" height="13" rx="7" fill="#66412f" />
+      <path d="M196 19h13v6h-13Z" fill="#66412f" />
+      <text
+        x="18"
+        y="69"
+        font-family="Georgia,serif"
+        font-size="22"
+        fill="#4c3425"
+      >
+        fairy tales
+        <tspan fill="#dc7750">.</tspan>
+      </text>
+      <text
+        x="18"
+        y="99"
+        font-family="Arial,sans-serif"
+        font-size="8"
+        fill="#9b8271"
+      >
+        A LITTLE WONDER, EVERY DAY.
+      </text>
+      <text
+        x="18"
+        y="126"
+        font-family="Georgia,serif"
+        font-size="22"
+        fill="#4c3425"
+      >
+        What’s your next
+      </text>
+      <text
+        x="18"
+        y="151"
+        font-family="Georgia,serif"
+        font-size="22"
+        font-style="italic"
+        fill="#4c3425"
+      >
+        great adventure?
+      </text>
+      <rect x="17" y="170" width="193" height="31" rx="15" fill="#eee2d1" />
+      <circle cx="32" cy="185" r="4" fill="none" stroke="#9b8271" />
+      <path d="m35 188 3 3" stroke="#9b8271" />
+      <text
+        x="46"
+        y="188"
+        font-family="Arial,sans-serif"
+        font-size="7"
+        fill="#9b8271"
+      >
+        Find your next story
+      </text>
+      <rect x="17" y="218" width="193" height="148" rx="8" fill="#b8c3a1" />
+      <circle cx="172" cy="247" r="17" fill="#f6e2aa" />
+      <path d="M17 331q40-42 76-6t117-13v54H17Z" fill="#799574" />
+      <path d="m121 326 22-70 33 70Z" fill="#516d58" />
+      <path d="m148 337 22-66 30 66Z" fill="#3c5d4a" />
+      <rect x="47" y="274" width="60" height="73" fill="#d99869" />
+      <path d="m38 276 38-34 41 34Z" fill="#8b4e3c" />
+      <rect x="70" y="310" width="15" height="37" rx="7" fill="#704d39" />
+      <rect x="55" y="287" width="12" height="13" fill="#f8d99a" />
+      <rect x="85" y="287" width="12" height="13" fill="#f8d99a" />
+      <text
+        x="18"
+        y="389"
+        font-family="Georgia,serif"
+        font-size="15"
+        fill="#4c3425"
+      >
+        The little house in the woods
+      </text>
+      <text
+        x="18"
+        y="407"
+        font-family="Arial,sans-serif"
+        font-size="7"
+        fill="#9b8271"
+      >
+        A STORY ABOUT FINDING YOUR WAY HOME.
+      </text>
+      <path d="M0 426h227v36H0Z" fill="#f9eedc" />
+      <g font-family="Arial,sans-serif" font-size="7" text-anchor="middle">
+        <text x="44" y="447" fill="#ad5f40">◈ Home</text>
+        <text x="117" y="447" fill="#9b8271">◇ Discover</text>
+        <text x="188" y="447" fill="#9b8271">♡ Library</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(506 113) rotate(10 120 230)" filter="url(#shadow)">
+    <rect x="-7" y="-7" width="241" height="476" rx="32" fill="#66412f" />
+    <g clip-path="url(#screen2)">
+      <rect width="227" height="462" fill="#f8efdd" />
+      <path d="M0 0h227v306H0Z" fill="#ba6847" />
+      <circle cx="177" cy="92" r="44" fill="#e8ad72" />
+      <path d="M0 211q60-67 119-6t108-29v130H0Z" fill="#d58758" />
+      <path d="M0 249q78-56 130-14t97-17v88H0Z" fill="#e2a276" />
+      <text
+        x="17"
+        y="26"
+        font-family="Arial,sans-serif"
+        font-size="8"
+        fill="#fff3df"
+      >
+        9:41
+      </text>
+      <rect x="87" y="8" width="58" height="13" rx="7" fill="#66412f" />
+      <text
+        x="20"
+        y="62"
+        font-family="Arial,sans-serif"
+        font-size="19"
+        fill="#fff3df"
+      >
+        ←
+      </text>
+      <text
+        x="192"
+        y="62"
+        font-family="Arial,sans-serif"
+        font-size="19"
+        fill="#fff3df"
+      >
+        ♡
+      </text>
+      <path d="m109 261 32-120 44 120Z" fill="#6b714e" />
+      <path d="m147 269 31-93 34 93Z" fill="#586747" />
+      <rect x="41" y="160" width="74" height="108" fill="#f2c59a" />
+      <path d="m30 164 47-49 49 49Z" fill="#714733" />
+      <rect x="67" y="218" width="23" height="50" rx="11" fill="#88563b" />
+      <rect x="52" y="178" width="16" height="20" fill="#c27e4f" />
+      <rect x="87" y="178" width="16" height="20" fill="#c27e4f" />
+      <path d="M68 133v-30h12v18" fill="#f2c59a" />
+      <text
+        x="21"
+        y="331"
+        font-family="Arial,sans-serif"
+        font-size="7"
+        letter-spacing="1.5"
+        fill="#b77450"
+      >
+        5 MIN READ · AGES 5–9
+      </text>
+      <text
+        x="21"
+        y="357"
+        font-family="Georgia,serif"
+        font-size="22"
+        fill="#4c3425"
+      >
+        A world beyond
+      </text>
+      <text
+        x="21"
+        y="382"
+        font-family="Georgia,serif"
+        font-size="22"
+        font-style="italic"
+        fill="#4c3425"
+      >
+        your window.
+      </text>
+      <rect x="20" y="407" width="188" height="33" rx="17" fill="#a65336" />
+      <text
+        x="114"
+        y="428"
+        font-family="Arial,sans-serif"
+        font-size="9"
+        text-anchor="middle"
+        fill="#fff0da"
+      >
+        Let the story begin ↗
+      </text>
+    </g>
+  </g>
+  <g fill="#ac5e3c">
+    <path
+      d="M130 185v36m-18-18h36m-31-13 26 26m-26 0 26-26"
+      stroke="#ac5e3c"
+      stroke-width="2"
+    />
+    <path
+      d="M816 487v43m-21-21h42m-35-15 29 30m-29 0 29-30"
+      stroke="#ac5e3c"
+      stroke-width="2"
+    />
+  </g>
+  <text
+    x="48"
+    y="680"
+    fill="#925237"
+    font-family="Arial,sans-serif"
+    font-size="8"
+    letter-spacing="2"
+  >
+    LITTLE STORIES. ENDLESS POSSIBILITIES.
+  </text>
+</svg>

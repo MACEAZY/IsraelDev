@@ -1,0 +1,226 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="720"
+  viewBox="0 0 960 720"
+>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#e0d1e8" />
+      <stop offset="1" stop-color="#c6add4" />
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" x2="1">
+      <stop stop-color="#8c66a8" />
+      <stop offset=".12" stop-color="#bea0cd" />
+      <stop offset=".48" stop-color="#dac5e4" />
+      <stop offset=".85" stop-color="#a886bd" />
+      <stop offset="1" stop-color="#88649d" />
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop stop-color="#312239" />
+      <stop offset=".4" stop-color="#60436c" />
+      <stop offset="1" stop-color="#2c2035" />
+    </linearGradient>
+    <linearGradient id="box" x1="0" x2="1">
+      <stop stop-color="#604470" />
+      <stop offset="1" stop-color="#765584" />
+    </linearGradient>
+    <linearGradient id="floor" x2="0" y2="1">
+      <stop stop-color="#c8b0d6" />
+      <stop offset="1" stop-color="#dbc9e5" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3" /></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h960v720H0z" />
+  <circle cx="760" cy="130" r="290" fill="#e9dced" opacity=".24" />
+  <path d="M0 568Q450 534 960 570V720H0Z" fill="url(#floor)" />
+  <ellipse
+    cx="504"
+    cy="604"
+    rx="280"
+    ry="35"
+    fill="#62406c"
+    opacity=".25"
+    filter="url(#shadow)"
+  />
+  <g opacity=".17" fill="none" stroke="#795889">
+    <path d="M-40 95Q135 5 205 180T135 550" stroke-width="55" />
+    <path
+      d="M-40 95Q135 5 205 180T135 550"
+      stroke="#efe3f3"
+      stroke-width="45"
+    />
+  </g>
+  <g transform="translate(536 123) rotate(8 98 223)">
+    <path d="M0 30 179 0l49 36-177 31Z" fill="#896797" />
+    <path d="m179 0 49 36v424l-49 24Z" fill="#4b345b" />
+    <path d="M0 30 179 0v484L0 507Z" fill="url(#box)" />
+    <rect
+      x="22"
+      y="64"
+      width="136"
+      height="392"
+      rx="65"
+      fill="none"
+      stroke="#d6bfdc"
+      stroke-width=".8"
+      opacity=".5"
+    />
+    <text
+      x="90"
+      y="191"
+      fill="#f0e3f1"
+      font-family="Georgia,serif"
+      font-size="43"
+      text-anchor="middle"
+    >
+      paris
+    </text>
+    <text
+      x="90"
+      y="226"
+      fill="#f0e3f1"
+      font-family="Georgia,serif"
+      font-size="31"
+      font-style="italic"
+      text-anchor="middle"
+    >
+      secrets
+    </text>
+    <path
+      d="M61 272q28-55 50 0-24 52-50 0Zm2 0h46"
+      fill="none"
+      stroke="#c9add1"
+      stroke-width="1.4"
+    />
+    <text
+      x="88"
+      y="370"
+      fill="#d6bfdc"
+      font-family="Arial,sans-serif"
+      font-size="7"
+      letter-spacing="2"
+      text-anchor="middle"
+    >
+      THE ART OF BEING
+    </text>
+    <text
+      x="88"
+      y="386"
+      fill="#d6bfdc"
+      font-family="Arial,sans-serif"
+      font-size="7"
+      letter-spacing="2"
+      text-anchor="middle"
+    >
+      UNFORGETTABLE.
+    </text>
+    <text
+      x="88"
+      y="428"
+      fill="#e4cfe8"
+      font-family="Arial,sans-serif"
+      font-size="8"
+      letter-spacing="2"
+      text-anchor="middle"
+    >
+      EAU DE PARFUM / 50 ML
+    </text>
+  </g>
+  <g transform="translate(284 172) rotate(-7 128 210)">
+    <rect x="82" y="16" width="91" height="107" rx="11" fill="url(#cap)" />
+    <path
+      d="M89 25v87m7-90v90m8-91v91m8-91v91m8-91v91m8-91v91m8-91v91m8-91v91m8-91v91m8-91v91"
+      stroke="#b49cba"
+      opacity=".18"
+    />
+    <rect x="87" y="115" width="81" height="22" rx="3" fill="#b9a0c1" />
+    <rect x="91" y="119" width="73" height="6" fill="#e5cfeb" />
+    <path
+      d="M78 136Q30 150 30 187v219q0 36 37 36h122q37 0 37-36V187q0-37-48-51Z"
+      fill="url(#bottle)"
+      stroke="#e6d0ed"
+      stroke-width="1.5"
+    />
+    <path
+      d="M44 187q0-23 35-34m-34 45v199q0 27 21 29"
+      fill="none"
+      stroke="#f5e7f7"
+      stroke-width="5"
+      opacity=".55"
+    />
+    <path
+      d="M211 194v203q0 29-20 29"
+      fill="none"
+      stroke="#77518f"
+      stroke-width="6"
+      opacity=".4"
+    />
+    <rect x="51" y="211" width="153" height="157" rx="1" fill="#f8f0f4" />
+    <rect
+      x="60"
+      y="220"
+      width="135"
+      height="139"
+      fill="none"
+      stroke="#a98ab3"
+      stroke-width=".5"
+    />
+    <text
+      x="127"
+      y="263"
+      fill="#52335e"
+      font-family="Georgia,serif"
+      font-size="36"
+      text-anchor="middle"
+    >
+      paris
+    </text>
+    <text
+      x="127"
+      y="295"
+      fill="#52335e"
+      font-family="Georgia,serif"
+      font-size="28"
+      font-style="italic"
+      text-anchor="middle"
+    >
+      secrets
+    </text>
+    <text
+      x="127"
+      y="327"
+      fill="#84658f"
+      font-family="Arial,sans-serif"
+      font-size="6.5"
+      letter-spacing="2.3"
+      text-anchor="middle"
+    >
+      L’ESSENCE DE VOUS
+    </text>
+    <text
+      x="127"
+      y="345"
+      fill="#84658f"
+      font-family="Arial,sans-serif"
+      font-size="6"
+      letter-spacing="1.3"
+      text-anchor="middle"
+    >
+      EAU DE PARFUM · PARIS
+    </text>
+    <path d="M56 403h145" stroke="#b191c0" stroke-width="1.5" />
+  </g>
+  <g
+    fill="#745383"
+    font-family="Arial,sans-serif"
+    font-size="8"
+    letter-spacing="2"
+  >
+    <text x="46" y="677">A SCENT. A STORY. A SECRET.</text>
+    <text x="835" y="677">PARIS / 01</text>
+  </g>
+</svg>
